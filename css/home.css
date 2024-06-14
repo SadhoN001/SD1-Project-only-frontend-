@@ -1,0 +1,64 @@
+
+#GG{
+    color: white;
+    font-size: 25px;
+}
+#all{
+    font-size: 20px;
+}
+#Nf {
+    height: 30px;
+    text-align: center;
+    font: bold;
+    font-size: 12px ;
+    color: rgb(17, 5, 5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#men{
+    text-align: center;
+    font-style: italic;
+}
+#bcrd{
+    text-align: center;
+}
+#card{
+    text-align: center;
+    width: 220px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-right: auto;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+}
+#all li a:hover{
+    color: aquamarine;
+}
+
+  /* Custom CSS to change the background color of buttons with the "btn-outline-success" class */
+  .btn-outline-success {
+    color: #7fffd4; /* Text color */
+    border-color: #7fffd4; /* Border color */
+  }
+
+  .btn-outline-success:hover {
+    color: #fff; /* Text color on hover */
+    background-color: #7fffd4; /* Background color on hover */
+    border-color: #7fffd4; /* Border color on hover */
+  }
+ 
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    text-align: center;
+}
+
+.dropdown-title {
+    display: inline-block;
+    margin: 0 auto; /* Center the title */
+    padding: 10px 20px; /* Add padding for spacing */
+    white-space: nowrap;
+  }

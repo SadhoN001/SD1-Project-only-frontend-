@@ -1,0 +1,77 @@
+#cat{
+    background-color: aqua;
+ }
+ .card{
+     margin: auto;
+ }
+ .pagination a {
+     color: var(--bs-dark);
+     padding: 10px 16px;
+     text-decoration: none;
+     transition: 0.5s;
+     border: 1px solid var(--bs-secondary);
+     margin: 0 4px;
+ }
+   
+ .pagination a.active {
+     background-color: var(--bs-primary);
+     color: var(--bs-light);
+     border: 1px solid var(--bs-secondary);
+ }
+   
+ .pagination a:hover:not(.active) {background-color: var(--bs-primary)}
+ 
+ /* card hover effect----------------- */
+ 
+ /* .shop-item:hover .shop-img img {
+     transform: scale(1.1);
+ }
+ 
+ .shop-item:hover .bg-secondary {
+     background-color: #ffc107; 
+ }
+ 
+ .shop-item:hover .border-secondary {
+     border-color: #ffc107; 
+ }
+ 
+ .shop-item:hover .text-primary {
+     color: #ffc107; 
+ } */
+ 
+ .shop-item {
+     overflow: hidden; 
+ }
+ 
+ .shop-img img {
+     transition: transform 0.3s ease; /* Add a smooth transition effect */
+ }
+ 
+ .shop-item:hover .shop-img img {
+     transform: scale(1.1); /* Scale up the image on hover */
+ }
+ 
+ 
+ .shop-item:hover h4 {
+     color: #ffc107; /* Change text color of "Gorgeous" heading on hover */
+ }
+ 
+ .shop-item:hover .border-secondary,
+ .shop-item:hover .rounded-bottom {
+     border-color: #ffc107; /* Change border color of the card on hover */
+ }
+ 
+ .shop-item:hover .bg-secondary {
+     background-color: #ffc107; /* Change background color of "Shop" label on hover */
+ }
+ 
+ /* btn */
+ .btn{
+    color: #ffffff;
+    border-color: #0f0b0b; 
+ }
+ .btn:hover{
+    color: #ffffff; /* Text color on hover */
+    background-color:#ffc107; /* Background color on hover */
+    border-color: #101010; /* Border color on hover */
+ }

@@ -1,0 +1,16 @@
+#sec{
+    background-color: #f2eae3;
+    text-align: justify;
+    margin-right: 20px;
+}
+/* Hover effect for services */
+.services-icon-wap:hover {
+    background-color:  #ebdcd0; /* Green background color */
+    transition: background-color 0.3s ease; 
+}
+
+/* Hover effect for service icons */
+.services-icon-wap:hover .text-success {
+    color: #fff; /* Change icon color to white */
+}
+/* #76c910;  */
